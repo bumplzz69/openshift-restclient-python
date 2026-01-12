@@ -4,3 +4,4 @@ kubernetes ~= 8.0.0
 python-string-utils
 ruamel.yaml >= 0.15
 six
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
